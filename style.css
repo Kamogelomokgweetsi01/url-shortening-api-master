@@ -1,0 +1,151 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(0, 67%, 98%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(257, 7%, 63%);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#button1 {
+    border: none;
+    border-radius: 20px;
+    background: none;
+    color: hsl(257, 7%, 63%);
+    font-weight: bolder;
+}
+
+#button2 {
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    font-weight: bolder;
+}
+
+header button {
+    padding: 10px 20px;
+    gap: 20%;
+    cursor: pointer;
+}
+
+.firstClass {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.firstClass h1 {
+    font-size: 120px;
+}
+
+.firstClass p {
+    font-size: 30px;
+    margin-top: -7%;
+}
+
+.firstClass button {
+    border: none;
+    padding: 20px 70px;
+    border-radius: 30px;
+    background-color: hsl(180, 66%, 49%);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.secondClass{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.secondClass img {
+    background: hsl(255, 11%, 22%);
+    border-radius: 15px;
+}
+
+.secondClass form {
+    margin-top: -8%;
+}
+
+.secondClass input {
+    border: none;
+    height: 60px;
+    width: 1000px;
+    padding: 27px 20px;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+
+.secondClass button {
+    border: none;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: hsl(180, 66%, 49%);
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
+
+#stats {
+    text-align: center;
+    margin-top: 8%;
+}
+
+#stats h1 {
+    font-size: 80px;
+}
+
+#stats p {
+    color: hsl(257, 7%, 63%);
+    font-size: 30px;
+    margin-bottom: 8%;
+}
+
+.boxes {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+
+#box{
+    border: none;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding-top: 5%;
+}
+
+.boxes img {
+    position: absolute;
+    padding: 25px 25px;
+    border-radius: 50%;
+    background-color: hsl(257, 27%, 26%);
+    margin-top: -7%;
+    margin-left: 2%;
+}
