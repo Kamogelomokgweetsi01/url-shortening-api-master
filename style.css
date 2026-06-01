@@ -8,6 +8,7 @@ header {
     justify-content: space-between;
     margin-left: 3%;
     margin-right: 3%;
+    margin-top: 1%;
 }
 
 nav {
@@ -64,6 +65,7 @@ header button {
 .firstClass p {
     font-size: 30px;
     margin-top: -7%;
+    color: hsl(257, 7%, 63%);
 }
 
 .firstClass button {
@@ -74,6 +76,7 @@ header button {
     font-size: 20px;
     font-weight: 700;
     color: white;
+    cursor: pointer;
 }
 
 .secondClass{
@@ -87,13 +90,13 @@ header button {
 }
 
 .secondClass form {
-    margin-top: -8%;
+    margin-top: -6%;
 }
 
 .secondClass input {
     border: none;
     height: 60px;
-    width: 1000px;
+    width: 800px;
     padding: 27px 20px;
     border-radius: 10px;
     font-size: 19px;
@@ -109,6 +112,8 @@ header button {
     font-size: 18px;
     font-weight: bolder;
     color: white;
+    cursor: pointer;
+    margin-left: 1%;
 }
 
 #stats {
@@ -139,7 +144,41 @@ header button {
     background-color: white;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
     padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+
 }
+
+#box2{
+    border: none;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding-top: 5%;
+    margin-top: 2.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#box3{
+    border: none;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding-top: 5%;
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.boxes p {
+    color: hsl(257, 7%, 63%);
+    font-size: 23px;
+    font-weight: 400;
+}
+
 
 .boxes img {
     position: absolute;
@@ -148,4 +187,83 @@ header button {
     background-color: hsl(257, 27%, 26%);
     margin-top: -7%;
     margin-left: 2%;
+}
+
+
+.boost {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.boost img {
+    background-color: hsl(255, 11%, 22%);
+    width: 100%;
+}
+
+.boost h1 {
+    font-size: 80px;
+    color: white;
+    margin-top: -15%;
+}
+
+.boost button {
+    border: none;
+    padding: 20px 70px;
+    border-radius: 30px;
+    background-color: hsl(180, 66%, 49%);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-top: -8%;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    margin-top: 4%;
+    background-color: hsl(260, 8%, 14%);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    justify-content: space-between;
+    padding-right: 20%;
+}
+
+#logo img {
+    margin-top: 50%;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    margin-left: 200%;
+}
+
+footer ul {
+    list-style-type: none;
+    gap: 2rem;
+}
+
+#foot {
+    margin-top: 3%;
+}
+
+#foot a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#foot h1{
+    font-size: 20px;
+}
+
+#icon a {
+    text-decoration: none;
+    color: white;
+}
+
+#icon {
+    font-size: 30px;
+    margin-top: 3%;
+    margin-left: 20px;
+    cursor: pointer;
 }
